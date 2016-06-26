@@ -1,0 +1,18 @@
+{
+  "name": "close5-node",
+  "version": "1.0.0",
+  "description": "close5 take home assignment",
+  "main": "index.js",
+  "scripts": {
+    "import": "mongoimport --db close5 --collection items --type json --drop --file ./data/items.json --jsonArray"
+  },
+  "author": "Jerry Yu",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.5.2"
+  }
+}
